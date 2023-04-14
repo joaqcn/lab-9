@@ -150,7 +150,7 @@ int main(void)
 	// Initialize the hash table
 
 	// create a variable hashTableSize and assign it a value
-	int hashTableSize = 10;
+	int hashTableSize = 11;
 	// initialize a hashTable, use calloc (so everything is assigned to NULL)
 	struct HashType *hashTable = (struct HashType *)calloc(hashTableSize, sizeof(struct HashType));
 	// for each record in pRecords, insert it into the hash table using the insertRecord function
